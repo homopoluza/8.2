@@ -1,0 +1,2 @@
+kibana_version: "8.2.3"
+kibana_home: "/opt/kibana/{{ kibana_version }}"
