@@ -39,6 +39,7 @@ kibana:
       until: get_kibana is succeeded
       tags: kibana
     - name: Create directrory for kibana
+      become: true
       file:
         state: directory
         path: "{{ kibana_home }}"
